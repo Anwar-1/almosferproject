@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-23T22:07:49 EET" name="Default suite" finished-at="2024-06-23T22:08:19 EET" duration-ms="30595">
+    <groups>
+    </groups>
+    <test started-at="2024-06-23T22:07:49 EET" name="Default test" finished-at="2024-06-23T22:08:19 EET" duration-ms="30595">
+      <class name="myTestCase">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:49 EET" name="mySetup" finished-at="2024-06-23T22:07:51 EET" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="ChangeTheLanguageOfTheWebSiteRandomly()[pri:1, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:51 EET" name="ChangeTheLanguageOfTheWebSiteRandomly" finished-at="2024-06-23T22:07:52 EET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeTheLanguageOfTheWebSiteRandomly -->
+        <test-method signature="HotelSelection()[pri:2, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:52 EET" name="HotelSelection" finished-at="2024-06-23T22:07:52 EET" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSelection -->
+        <test-method signature="SelectNumberOfPeople()[pri:3, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:52 EET" name="SelectNumberOfPeople" finished-at="2024-06-23T22:07:57 EET" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectNumberOfPeople -->
+        <test-method signature="CheckThePageIsFullyLoaded()[pri:4, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:57 EET" name="CheckThePageIsFullyLoaded" finished-at="2024-06-23T22:08:17 EET" duration-ms="19893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThePageIsFullyLoaded -->
+        <test-method signature="sortItems()[pri:5, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:08:17 EET" name="sortItems" finished-at="2024-06-23T22:08:19 EET" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItems -->
+      </class> <!-- myTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
