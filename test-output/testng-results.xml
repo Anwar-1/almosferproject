@@ -1,36 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-23T22:07:49 EET" name="Default suite" finished-at="2024-06-23T22:08:19 EET" duration-ms="30595">
+  <suite started-at="2024-06-28T19:42:04 EET" name="Default suite" finished-at="2024-06-28T19:42:39 EET" duration-ms="34178">
     <groups>
     </groups>
-    <test started-at="2024-06-23T22:07:49 EET" name="Default test" finished-at="2024-06-23T22:08:19 EET" duration-ms="30595">
+    <test started-at="2024-06-28T19:42:04 EET" name="Default test" finished-at="2024-06-28T19:42:39 EET" duration-ms="34178">
       <class name="myTestCase">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:49 EET" name="mySetup" finished-at="2024-06-23T22:07:51 EET" duration-ms="2519" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:02 EET" name="setUp" finished-at="2024-06-28T19:42:04 EET" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:04 EET" name="mySetup" finished-at="2024-06-28T19:42:07 EET" duration-ms="2723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="ChangeTheLanguageOfTheWebSiteRandomly()[pri:1, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:51 EET" name="ChangeTheLanguageOfTheWebSiteRandomly" finished-at="2024-06-23T22:07:52 EET" duration-ms="622" status="PASS">
+        <test-method signature="CheckTheLanguage()[pri:1, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="CheckTheLanguage" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ChangeTheLanguageOfTheWebSiteRandomly -->
-        <test-method signature="HotelSelection()[pri:2, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:52 EET" name="HotelSelection" finished-at="2024-06-23T22:07:52 EET" duration-ms="271" status="PASS">
+        </test-method> <!-- CheckTheLanguage -->
+        <test-method signature="TestTheCurrencyIsSAR()[pri:2, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="TestTheCurrencyIsSAR" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTheCurrencyIsSAR -->
+        <test-method signature="TestContactNumber()[pri:3, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="TestContactNumber" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactNumber -->
+        <test-method signature="VerifyQitafLogo()[pri:4, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="VerifyQitafLogo" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyQitafLogo -->
+        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="CheckHotelTabIsNotSelected" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHotelTabIsNotSelected -->
+        <test-method signature="CheckDepartureAndReturnDate()[pri:6, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="CheckDepartureAndReturnDate" description="MainPageTest" finished-at="2024-06-28T19:42:07 EET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDepartureAndReturnDate -->
+        <test-method signature="ChangeTheLanguageOfTheWebsiteRandomly()[pri:7, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:07 EET" name="ChangeTheLanguageOfTheWebsiteRandomly" description="MainPageTest" finished-at="2024-06-28T19:42:08 EET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeTheLanguageOfTheWebsiteRandomly -->
+        <test-method signature="HotelSelection()[pri:8, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:08 EET" name="HotelSelection" description="HotelPageTest" finished-at="2024-06-28T19:42:09 EET" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSelection -->
-        <test-method signature="SelectNumberOfPeople()[pri:3, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:52 EET" name="SelectNumberOfPeople" finished-at="2024-06-23T22:07:57 EET" duration-ms="4558" status="PASS">
+        <test-method signature="SelectNumberOfPeople()[pri:9, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:09 EET" name="SelectNumberOfPeople" description="HotelPageTest" finished-at="2024-06-28T19:42:12 EET" duration-ms="3684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectNumberOfPeople -->
-        <test-method signature="CheckThePageIsFullyLoaded()[pri:4, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:07:57 EET" name="CheckThePageIsFullyLoaded" finished-at="2024-06-23T22:08:17 EET" duration-ms="19893" status="PASS">
+        <test-method signature="CheckThePageIsFullyLoaded()[pri:10, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:12 EET" name="CheckThePageIsFullyLoaded" description="HotelPageTest" finished-at="2024-06-28T19:42:36 EET" duration-ms="23053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckThePageIsFullyLoaded -->
-        <test-method signature="sortItems()[pri:5, instance:myTestCase@41dd05a]" started-at="2024-06-23T22:08:17 EET" name="sortItems" finished-at="2024-06-23T22:08:19 EET" duration-ms="2688" status="PASS">
+        <test-method signature="sortItems()[pri:11, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:36 EET" name="sortItems" description="HotelPageTest" finished-at="2024-06-28T19:42:39 EET" duration-ms="3062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myTestCase@5ffead27]" started-at="2024-06-28T19:42:39 EET" name="tearDown" finished-at="2024-06-28T19:42:39 EET" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- myTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -5,8 +5,19 @@
     <classes>
       <class name="myTestCase">
         <methods>
-          <include name="HotelSelection"/>
+          <include name="TestContactNumber"/>
+          <include name="tearDown"/>
+          <include name="CheckHotelTabIsNotSelected"/>
           <include name="mySetup"/>
+          <include name="TestTheCurrencyIsSAR"/>
+          <include name="sortItems"/>
+          <include name="CheckDepartureAndReturnDate"/>
+          <include name="HotelSelection"/>
+          <include name="CheckTheLanguage"/>
+          <include name="VerifyQitafLogo"/>
+          <include name="CheckThePageIsFullyLoaded"/>
+          <include name="SelectNumberOfPeople"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- myTestCase -->
     </classes>
